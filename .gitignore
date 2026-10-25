@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
+ENV/
+
+# Environment / secrets
+.env
+*.env
+
+# Database (may contain personal data)
+database/*.db
+database/*.db-shm
+database/*.db-wal
+
+# Uploaded files (private user data)
+uploads/*
+!uploads/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Logs
+*.log
